@@ -1,0 +1,53 @@
+#main{
+	width: 550px;
+	height: 350px;
+	position: absolute;
+	left: 50px;
+	top: 100px;
+	border: solid;
+	display: grid;
+	grid-template-columns: 3.5fr 1.5fr 3fr 3fr 3fr 3.5fr 3.5fr 3.5fr 3.5fr 3fr 3fr 3fr 1.5fr 3.5fr;
+	grid-template-rows: repeat(10, 1fr);
+}
+
+.BigSquare{
+	grid-column: span 4;
+	grid-row: span 4;
+}
+
+.TwoColumns{
+	grid-column: span 2;
+}
+
+.TwoRows{
+	grid-row: span 2;
+}
+
+.ThreeColumns{
+	grid-column: span 3;
+}
+
+.ThreeRows{
+	grid-row: span 3;
+}
+
+#main div{
+	display: grid;
+	border: solid;
+}
+
+.blue{
+	background: blue;
+}
+
+.yellow{
+	background: yellow;
+}
+
+.red{
+	background: red;
+}
+
+.black{
+	background: black;
+}
